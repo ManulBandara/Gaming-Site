@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
 <body>
     
@@ -24,7 +29,7 @@
         </div>
     </header>
 
-    <section class="hero-section">
+    <section class="hero-section autoBlur">
         <div class="hero-vid">
             <video loop autoplay muted plays-inline class="hero-video">
                 <source src="videos/hero-1.mp4" type="video/mp4">
@@ -46,7 +51,10 @@
 
     <section id="about" class="about-section">
         <p>Welcome to Zentry</p>
-        <h1>DISCOVER THE WORLDS'S LARGEST SHARED ADVENT</h1>
+        <div class="autoBlur">
+            <h1>DISCOVER THE WORLDS'S LARGEST SHARED ADVENT</h1>
+        </div>
+        
     
     <div class="image-box">>
         <img src="img/about.webp" alt="about-image">
@@ -105,11 +113,25 @@
 
     <section class="contact-section">
         <p>Join Zentry</p>
-        <h1>LET'S BUILD THE NEW ERA OF GAMING TOGETHER</h1>
+        <div class="autoBlur">
+            <h1>LET'S BUILD THE NEW ERA OF GAMING TOGETHER</h1>
+        </div>
+        
         <button>CONTACT US</button>
         <img class="img1" src="img/swordman.webp" alt="contact-img">
         <img class="img2" src="img/contact-1.webp" alt="contact-img">
         <img class="img3" src="img/contact-2.webp" alt="contact-img">
+    </section>
+
+    <section class="footer">
+        <p>@Manul Bandara 2025. All right reserved</p>
+        <ul>
+            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="#"><i class='bx bxl-github'></i></a></li>
+            <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+        </ul>
+        <p>Privacy Policy | Terms of Service</p>
     </section>
 
 </div>
