@@ -38,5 +38,22 @@ header {
     border: none;
     padding: 10px 30px;
     border-radius: 20px;
-    font
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.head-left button:hover {
+    opacity: 0.7;
+}
+
+.head-right {
+    display: flex;
+}
+
+.head-right a {
+    text-decoration: none;
+    padding: 25px;
+    color: #fff;
+    font-size: 15px;
 }
