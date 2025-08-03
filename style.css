@@ -29,9 +29,15 @@ header {
 }
 
 .head-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.head-left img {
     width: 40px;
-    height: 40px;
-    margin-right: 20px;
+    height:40px;
+    border-radius: 20px;
 }
 
 .head-left button {
@@ -53,7 +59,7 @@ header {
 
 .head-right a {
     text-decoration: none;
-    padding: 25px;
+    padding-left: 25px;
     color: #fff;
     font-size: 15px;
 }
